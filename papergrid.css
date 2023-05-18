@@ -1,0 +1,135 @@
+*{
+    border: none;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.top-box{
+    background-color: #121212;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.176);
+}
+.top-box:hover{
+    background-color: #121212f3;
+}
+.top-text{
+    font-size: 13px;
+}
+
+.nav-link{
+    color: #ffffffc4;
+}
+.nav-link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.navbar{
+    background-color: #121212;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.navbar-toggler-icon {
+    filter: invert(100%);
+  }
+/* top header */
+
+.card{
+    border: 0;
+}
+
+/* body-2 */
+
+.headtext{
+    font-size: 24px;
+    font-weight: 400;
+}
+.button-1{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 0;
+}
+.button-1:hover{
+    border: solid 1px rgb(0, 0, 0);
+    padding: 10px 25px; 
+    background-color: black;  
+}
+.subtext-1{
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: #121212c0;
+}
+.list-1 li{
+    letter-spacing: 0.66px;
+    font-size: 17.6px;
+    text-decoration: underline 2px;
+    line-height: 40px;
+    color: #ffffffab;
+    cursor: pointer;
+}
+li:hover{
+    color: #ffffff;
+}
+.list-1 h1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: 0.6px;  
+    color: #ffffff; 
+    margin-bottom: 15px;
+}
+.bi{
+    width: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.bi-instagram:hover{
+    width: 22px;
+    cursor: pointer;
+}
+
+/* footer */
+
+.list-2{
+    color: #ffffffa7;
+    font-size: 12.1px;
+    letter-spacing: 0.77px;
+    border-top: solid 1px #ffffff16;
+}
+.list-2 p:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Styles for iPhone SE */
+@media only screen and (max-width: 320px) {
+    .top-box{
+       
+    }
+  }
+  
+  /* Styles for iPhone XR */
+  @media only screen and (max-width: 414px) {
+   
+  }
+
+
+  /* .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0;
+    background-color: #f8f9fa;
+    transition: width 0.3s ease-in-out;
+    overflow-x: hidden;
+  }
+
+  .sidebar.active {
+    width: 250px;
+    height: 5000px;
+  } */
